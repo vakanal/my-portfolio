@@ -1,3 +1,11 @@
+export interface InfoEquipo {
+  frase: string;
+  nombre: string;
+  subtitulo: string;
+  twitter: string;
+  url: string;
+}
+
 export interface InfoPage {
   titulo?: string;
   email?: string;
@@ -7,5 +15,5 @@ export interface InfoPage {
   twitter?: string;
   instagram?: string;
   tumblr?: string;
-  equipo_trabajo?: any[];
+  equipo_trabajo?: InfoEquipo[];
 }
