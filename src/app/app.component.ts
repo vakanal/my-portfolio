@@ -8,5 +8,8 @@ import { ProductosService } from './services/productos.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(infoPagesService: InfoPagesService, productosService: ProductosService) { }
+  constructor(
+    infoPagesService: InfoPagesService,
+    productosService: ProductosService
+  ) {}
 }
